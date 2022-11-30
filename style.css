@@ -1,0 +1,27 @@
+body{
+    align-content:center;
+    background-color:black;
+}
+#save_button{
+    box-shadow:1px 1px 20px 10px blue;
+    background-color:rgb(22, 129, 216);
+    color:white;
+    border-width:0px;
+}
+
+#title{
+    animation-name:rgb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rgb{
+    0%{
+        box-shadow:1px 1px 20px 10px green;
+    }
+    50%{
+        box-shadow:1px 1px 20px 10px blue;
+    }
+    100%{
+        box-shadow:1px 1px 20px 10px green;
+    }
+}
