@@ -14,6 +14,11 @@ body{
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+canvas{
+    animation-name:rgb;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 @keyframes rgb{
     0%{
         box-shadow:1px 1px 20px 10px green;
